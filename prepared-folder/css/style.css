@@ -6,9 +6,19 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
 img {
     width: 100%;
     height: auto;
 }
 
-/* COMMON */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}

@@ -1,0 +1,42 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+.checkbox input{
+    /* visibility: hidden; */
+}
+
+.checkbox span{
+    position: relative;
+    padding-left: 30px;
+    background-color: yellowgreen;
+    height: 1px;
+    width: 1px;
+}
