@@ -1,0 +1,44 @@
+/*  
+    @media screen and (max-width: 768px) {}
+    @media screen and (min-width:769px) and (max-width:991px) {}
+    @media screen and (min-width: 992px) {}
+*/
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.txt-color-white{
+    color: white;
+}
