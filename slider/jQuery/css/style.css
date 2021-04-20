@@ -1,0 +1,47 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* COMMON */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* MAIN */
+
+.container {
+    align-items: center;
+}
+
+main .images {
+    padding: 5%;
+}
+
+.chevron {
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.images img {
+    display: none;
+}
+
+.images img.active {
+    display: block;
+}

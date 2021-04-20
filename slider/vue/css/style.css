@@ -1,0 +1,68 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* MAIN */
+
+.container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.images {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.arrow i{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.circle-container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 999px;
+}
+
+.circle{
+    color: white;
+    margin: 10px;
+}
+
+.current-photo{
+    color: blue;
+}

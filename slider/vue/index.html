@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Slider Vue</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <!-- Vue Container -->
+    <div id="root">
+
+        <main>
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Container display flex -->
+                <div class="display-flex">
+
+                    <!-- Arrow left -->
+                    <div class="arrow">
+                        <span v-on:click="prevImage"><i class="fas fa-chevron-left"></i></span>
+                    </div>
+                    <!-- end Arrow left -->
+
+                    <!-- Images -->
+                    <div class="images">
+                        <img :src="'img/' + imagesArray[currentImage]" alt="">
+                    </div>
+                    <!-- end Images -->
+
+                    <!-- Arrow right -->
+                    <div class="arrow">
+                        <span v-on:click="nextImage"><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                    <!-- end Arrow right -->
+
+                </div>
+                <!-- end Container display flex -->
+
+                <!-- Circles -->
+                <div class="circle-container">
+
+                    <span v-for="(image, index) in imagesArray" :class=" { 'current-photo': index == currentImage } "
+                        class="circle">
+                        <i class="fas fa-circle"></i>
+                    </span>
+
+                </div>
+                <!-- end Circles -->
+
+            </div>
+            <!-- end Container -->
+
+        </main>
+
+    </div>
+    <!-- end Vue Container -->
+
+    <!-- Script js,Jquery and Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

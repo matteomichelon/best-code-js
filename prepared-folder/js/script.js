@@ -13,12 +13,13 @@ $( document ).ready( function () {
 var app = new Vue(
     {
         el: '#root',
+        data:{
+
+        },
+        methods:{
+
+        }
     }
-
-    //====
-    /* write here if you use Vue*/
-    //====
-
 );
 
 /* end Vue */
