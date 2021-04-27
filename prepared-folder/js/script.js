@@ -1,4 +1,4 @@
-/* Document Ready */ 
+/* Document Ready */
 $( document ).ready( function () {
 
     //====
@@ -8,17 +8,36 @@ $( document ).ready( function () {
 } );
 /* end Document Ready */
 
-/* Vue */ 
+/* Vue */
 
 var app = new Vue(
     {
         el: '#root',
-        data:{
+
+        /* DATA */
+        data: {
 
         },
-        methods:{
+
+        /* METHODS */
+        methods: {
+
+        },
+
+        /* MOUNTED */
+        mounted () {
+            axios
+                .get( 'url' )
+                .then( ( response ) => {
+                    const result = response.data;
+                } );
+        },
+
+        /* CREATED */
+        created(){
 
         }
+
     }
 );
 
