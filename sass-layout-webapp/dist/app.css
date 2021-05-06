@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 22px;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: #ffc0cb;
+}
+
+main {
+  width: 100%;
+  height: calc( 100% - 140px );
+  background-color: lightgoldenrodyellow;
+}
+main .left,
+main .right {
+  float: left;
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background-color: lightblue;
+  color: #ffc0cb;
+}
+main .central {
+  float: left;
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: orange;
+}

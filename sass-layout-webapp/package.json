@@ -1,0 +1,26 @@
+{
+  "name": "sass-layout-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlessandroSCPse/sass-layout-webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlessandroSCPse/sass-layout-webapp/issues"
+  },
+  "homepage": "https://github.com/AlessandroSCPse/sass-layout-webapp#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.18",
+    "postcss": "^8.2.14",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1"
+  }
+}

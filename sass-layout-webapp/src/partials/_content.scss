@@ -1,0 +1,24 @@
+// Main
+main {
+    width: 100%;
+    height: calc( 100% - #{$header_footer_height * 2} );
+
+    // Test
+    background-color: lightgoldenrodyellow;
+
+    .left,
+    .right {
+        @include floating-column;
+        @include flex-with-centered-content;
+        width: 20%;
+        background-color: $brand_secondary_color;
+        color: $brand_primary_color;
+    }
+
+    .central {
+        @include floating-column;
+        @include flex-with-centered-content;
+        width: 60%;
+        background-color: orange;
+    }
+}

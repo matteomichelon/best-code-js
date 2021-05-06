@@ -1,0 +1,19 @@
+// Common
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: $standard_font_size;
+}
+
+header,
+footer {
+    @include flex-with-centered-content;
+    width: 100%;
+    height: $header_footer_height;
+    background-color: $brand_primary_color;
+}

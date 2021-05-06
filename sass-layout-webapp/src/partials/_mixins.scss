@@ -1,0 +1,14 @@
+// Mixins
+@mixin floating-column {
+    float: left;
+    height: 100%;
+    font-size: $small_font_size;
+}
+
+@mixin flex-with-centered-content {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
