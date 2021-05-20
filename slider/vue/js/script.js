@@ -51,9 +51,9 @@ var app = new Vue(
         created () {
             // Usiamo una arrowFunction perchè ci serve in questo caso
             // il this altrimenti con la funzione normale ci dà un oggetto windows
-            setInterval( () => {
+            /* setInterval( () => {
                 this.nextImage();
-            }, 3000 )
+            }, 3000 ) */
         }
 
     }
